@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <ul>
+            {% for n in Familiares %}
+<li><h3>{{n.nombre}}</h3>
+    <h4 style = 'color:aqua'>{{n.apellido}}</h4>
+    {{n.fecha_nacimiento}}
+    {{n.dni}} 
+    {{n.parentezco}}
+</li>
+</ul>{% endfor %}
+    </body>
+</html>
